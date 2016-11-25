@@ -1,4 +1,4 @@
-package ru.val.bookmanager;
+package ru.val.usermanager;
 
 import org.junit.Before;
 import org.junit.Test;

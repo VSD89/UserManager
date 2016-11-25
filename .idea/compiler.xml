@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BookManger" />
-        <module name="UserManager" />
       </profile>
       <profile default="false" name="Annotation profile for BookManager" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -31,6 +30,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BookManager" />
+      </profile>
+      <profile default="false" name="Annotation profile for UserManager" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="UserManager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
