@@ -25,8 +25,6 @@
         </thead>
         <tbody>
         <c:forEach items="${users}" var="user">
-            <c:url var="editUrl" value="/jvtestbd/main/users/edit?id=${user.id}" />
-            <c:url var="deleteUrl" value="/jvtestbd/main/users/delete?id=${user.id}" />
             <tr>
                 <td><c:out value="${user.id}" /></td>
                 <td><c:out value="${user.userName}" /></td>
